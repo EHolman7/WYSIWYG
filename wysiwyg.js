@@ -50,13 +50,13 @@ var famousPeople = [
     }
   },
   {
-    position: "",
-    name: "",
-    bio: "",
+    position: "Left Field",
+    name: "Barry Lamar Bonds",
+    bio: "Barry Lamar Bonds was born on July 24, 1964, in Riverside, California, to baseball player Bobby Bonds. He made history by setting the single-season and career records for home runs, though he was accused of using performance-enhancing drugs. Bonds was convicted of lying to a federal grand jury during the notorious BALCO investigation, but the conviction was overturned in 2015.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/BarryBonds1993.jpg/220px-BarryBonds1993.jpg",
     lifespan: {
-      birth: 1900,
-      death: ""
+      birth: "July 24, 1964",
+      death: "____"
     }
   }
 ];
