@@ -62,7 +62,7 @@ var famousPeople = [
 ];
 var userInput = document.getElementById("user-input");
 var peopleContainer = document.getElementById("people-container");
-var peopleCard = document.getElementsByClassName("stars");
+var peopleCard = document.getElementsByClassName("allStars");
 var peopleBio = '';
 for (var i = 0; i < famousPeople.length; i++) {
   peopleContainer.innerHTML +=
@@ -75,7 +75,8 @@ for (var i = 0; i < famousPeople.length; i++) {
     </div>`;
 }
 function editBiosFocus() {
-  for (var i = 0; i < famousCard.length; i++) {
+  console.log("Sup");
+  for (var i = 0; i < peopleCard.length; i++) {
     if (peopleCard.item(i).classList.contains("selected")) {
       peopleCard.item(i).classList.remove("selected");
     }
