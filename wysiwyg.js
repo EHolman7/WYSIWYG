@@ -56,7 +56,7 @@ var famousPeople = [
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/BarryBonds1993.jpg/220px-BarryBonds1993.jpg",
     lifespan: {
       birth: "July 24, 1964",
-      death: "____"
+      death: "Still Swinging"
     }
   }
 ];
@@ -92,6 +92,7 @@ for (var i = 0; i < peopleCard.length; i++) {
 }
 
 function editBios (userInput) {
+  console.log(peopleBio);
   document.getElementById(peopleBio).innerHTML = userInput;
   console.log(peopleBio);
 }
